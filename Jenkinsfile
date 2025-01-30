@@ -28,7 +28,7 @@ pipeline{
 	}
 
 
-	 stage("printing project name") {
+	 stage("printing_project_name") {
 			  steps{
 					 script { 
 							 echo "_________________printing a project name _______" 
