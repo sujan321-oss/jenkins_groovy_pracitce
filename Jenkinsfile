@@ -32,7 +32,7 @@ pipeline{
 			  steps{
 					 script { 
 							 echo "_________________printing a project name _______" 
-							  echo $projectname
+							   echo ${projectname}
 
 						 }	 
 
