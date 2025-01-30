@@ -1,4 +1,4 @@
-
+def projectname="basic project"
 pipeline{
 	agent any
 	stages{
@@ -26,6 +26,19 @@ pipeline{
 		 }
 
 	}
+
+
+	 stage("printing project name") {
+			  steps{
+					 script { 
+							 echo "_________________printing a project name _______" 
+							  echo $projectname
+
+						 }	 
+
+			  } 
+
+		 }
 
 
 }
