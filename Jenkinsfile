@@ -38,6 +38,17 @@ pipeline{
 
 
 
+			 stage ("functional_stage"){
+			steps{
+			       script  { 
+					    def a  = 122  
+						echo $a
+				   }
+			}
+		 }
+
+
+
 
 	}
 
