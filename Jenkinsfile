@@ -42,7 +42,7 @@ pipeline{
 			steps{
 			       script  { 
 					    def a  = 122  
-						echo $a
+						echo ${a}
 				   }
 			}
 		 }
